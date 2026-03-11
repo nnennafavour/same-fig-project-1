@@ -8,7 +8,7 @@ const Services = () => {
 
       {/* Header */}
       <div className="flex flex-col md:flex-row gap-6 mt-20">
-        <h1 className="bg-[#B9FF66] px-3 py-2 font-bold w-fit">
+        <h1 className="bg-[#B9FF66] px-3 py-2 font-bold w-fit text-xl">
           Services
         </h1>
 

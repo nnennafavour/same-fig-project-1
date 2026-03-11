@@ -10,7 +10,7 @@ const Blog = () => {
 
       {/* Team */}
       <div className="flex flex-col md:flex-row gap-6 mt-24">
-        <span className="bg-[#B9FF66] px-3 py-2 font-bold w-fit">
+        <span className="bg-[#B9FF66] px-3 py-2 font-bold text-xl w-fit">
           Team
         </span>
 
@@ -34,7 +34,7 @@ const Blog = () => {
 
       {/* Testimonials */}
       <div className="flex flex-col md:flex-row gap-6 mt-24">
-        <span className="bg-[#B9FF66] px-3 py-2 font-bold w-fit">
+        <span className="bg-[#B9FF66] px-3 py-2 font-bold w-fit text-xl">
           Testimonials
         </span>
 
@@ -52,7 +52,7 @@ const Blog = () => {
 
       {/* Contact */}
       <div className="flex flex-col md:flex-row gap-6 mt-24">
-        <span className="bg-[#B9FF66] px-3 py-2 font-bold w-fit">
+        <span className="bg-[#B9FF66] px-3 py-2 font-bold w-fit text-xl">
           Contact Us
         </span>
 
