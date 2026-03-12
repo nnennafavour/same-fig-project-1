@@ -27,12 +27,13 @@ const Services = () => {
 
       {/* CTA Grey Box */}
       <div className="bg-[#F3F3F3] rounded-[45px] mt-20 
-                      w-full max-w-[900px] h-auto 
+                      w-full max-w-[1240px] 
+                      h-auto md:h-[347px] 
                       mx-auto flex flex-col md:flex-row items-center justify-between 
-                      gap-6 p-8 md:p-16">
+                      gap-6 p-6 md:p-16">
 
         {/* Text + Button */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 flex flex-col justify-center">
           <h2 className="text-xl md:text-2xl font-bold md:leading-snug">
             Let's make things happen
           </h2>
@@ -42,17 +43,18 @@ const Services = () => {
             services can help your business grow and succeed online.
           </p>
 
-          <button className="mt-6 px-6 py-3 bg-black text-white rounded-xl text-sm md:text-base">
+          {/* Button with your original styling */}
+          <button className="mt-8 px-6 py-3 bg-black text-white rounded-xl">
             Get your free proposal
           </button>
         </div>
 
         {/* Image */}
-        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
+        <div className="w-full md:w-1/2 flex justify-center mt-6 md:mt-0">
           <img
             src={Frame19}
             alt="frame"
-            className="w-full max-w-md"
+            className="w-full max-w-full md:max-w-[1240px] h-auto object-contain"
           />
         </div>
 
