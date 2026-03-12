@@ -8,11 +8,11 @@ const Services = () => {
 
       {/* Header */}
       <div className="flex flex-col md:flex-row gap-6 mt-20">
-        <h1 className="bg-[#B9FF66] px-3 py-2 font-bold w-fit text-xl">
+        <h1 className="bg-[#B9FF66] px-3 py-2 font-bold w-fit text-lg md:text-xl">
           Services
         </h1>
 
-        <p className="max-w-xl">
+        <p className="max-w-xl text-sm md:text-base">
           At our digital marketing agency, we offer a range of services
           to help businesses grow and succeed online.
         </p>
@@ -29,31 +29,30 @@ const Services = () => {
       <div className="bg-[#F3F3F3] rounded-[45px] mt-20 
                       w-full md:w-[1240px] h-auto md:h-[347px] 
                       mx-auto flex flex-col md:flex-row items-center justify-between 
-                      gap-6 md:gap-10 p-8 md:p-16">
+                      gap-6 md:gap-10 p-6 md:p-16">
 
         {/* Text */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-xl md:text-2xl font-bold">
+          <h2 className="text-lg md:text-2xl font-bold md:leading-snug">
             Let's make things happen
           </h2>
 
-          <p className="mt-4">
+          <p className="mt-4 text-sm md:text-base leading-relaxed">
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
-
-          <button className="mt-6 px-6 py-3 bg-black text-white rounded-xl">
-            Get your free proposal
-          </button>
         </div>
 
-        {/* Image */}
-        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
+        {/* Image + Button */}
+        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex flex-col items-center">
           <img
             src={Frame19}
             alt="frame"
             className="w-full max-w-md"
           />
+          <button className="mt-4 md:mt-6 px-4 md:px-6 py-2 md:py-3 bg-black text-white rounded-xl text-sm md:text-base">
+            Get your free proposal
+          </button>
         </div>
 
       </div>
