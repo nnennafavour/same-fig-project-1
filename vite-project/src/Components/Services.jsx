@@ -43,8 +43,8 @@ const Services = () => {
             services can help your business grow and succeed online.
           </p>
 
-          {/* Button with your original styling */}
-          <button className="mt-8 px-6 py-3 bg-black text-white rounded-xl">
+          {/* Fixed button with reduced padding to fit text */}
+          <button className="mt-6 px-4 py-2 bg-black text-white rounded-xl text-sm md:text-base w-fit">
             Get your free proposal
           </button>
         </div>
