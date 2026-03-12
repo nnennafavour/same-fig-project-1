@@ -26,7 +26,37 @@ const Services = () => {
       />
 
       {/* CTA */}
-      
+      <div className="bg-[#F3F3F3] rounded-[45px] mt-20 
+                      w-full md:w-[1240px] h-auto md:h-[347px] 
+                      mx-auto flex flex-col md:flex-row items-center justify-between 
+                      gap-6 md:gap-10 p-8 md:p-16">
+
+        {/* Text */}
+        <div className="w-full md:w-1/2">
+          <h2 className="text-xl md:text-2xl font-bold">
+            Let's make things happen
+          </h2>
+
+          <p className="mt-4">
+            Contact us today to learn more about how our digital marketing
+            services can help your business grow and succeed online.
+          </p>
+
+          <button className="mt-6 px-6 py-3 bg-black text-white rounded-xl">
+            Get your free proposal
+          </button>
+        </div>
+
+        {/* Image */}
+        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
+          <img
+            src={Frame19}
+            alt="frame"
+            className="w-full max-w-md"
+          />
+        </div>
+
+      </div>
     </section>
   );
 };
