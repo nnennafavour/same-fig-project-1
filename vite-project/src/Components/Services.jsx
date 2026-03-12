@@ -25,15 +25,15 @@ const Services = () => {
         className="mt-12 w-full max-w-[1240px] mx-auto"
       />
 
-      {/* CTA */}
+      {/* CTA Grey Box */}
       <div className="bg-[#F3F3F3] rounded-[45px] mt-20 
-                      w-full md:w-[1240px] h-auto md:h-[347px] 
+                      w-full max-w-[900px] h-auto 
                       mx-auto flex flex-col md:flex-row items-center justify-between 
-                      gap-6 md:gap-10 p-6 md:p-16">
+                      gap-6 p-8 md:p-16">
 
-        {/* Text */}
+        {/* Text + Button */}
         <div className="w-full md:w-1/2">
-          <h2 className="text-lg md:text-2xl font-bold md:leading-snug">
+          <h2 className="text-xl md:text-2xl font-bold md:leading-snug">
             Let's make things happen
           </h2>
 
@@ -41,18 +41,19 @@ const Services = () => {
             Contact us today to learn more about how our digital marketing
             services can help your business grow and succeed online.
           </p>
+
+          <button className="mt-6 px-6 py-3 bg-black text-white rounded-xl text-sm md:text-base">
+            Get your free proposal
+          </button>
         </div>
 
-        {/* Image + Button */}
-        <div className="w-full md:w-1/2 mt-6 md:mt-0 flex flex-col items-center">
+        {/* Image */}
+        <div className="w-full md:w-1/2 mt-8 md:mt-0 flex justify-center">
           <img
             src={Frame19}
             alt="frame"
             className="w-full max-w-md"
           />
-          <button className="mt-4 md:mt-6 px-4 md:px-6 py-2 md:py-3 bg-black text-white rounded-xl text-sm md:text-base">
-            Get your free proposal
-          </button>
         </div>
 
       </div>
